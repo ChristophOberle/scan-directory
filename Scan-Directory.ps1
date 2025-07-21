@@ -29,7 +29,15 @@ $fileName; $leafBase; $extension; $dirCount; $dir; $dir; $dir ...
 
 .EXAMPLE
 
-PS> .\Scan-Directory.ps1 -Path ./test/resources/reels -Include *.xml -Depth 2
+PS> .\Scan-Directory.ps1
+
+Scans the current directory, matches *.*, depth for recursion is 10
+
+.EXAMPLE
+
+PS> .\Scan-Directory.ps1 / -Include *.pfx -Depth 100
+
+Scans the root directory recursively for files with extension .pfx 
 
 #>
 
