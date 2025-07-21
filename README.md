@@ -14,7 +14,7 @@ This Powershell script can be used in Windows and Unix environments.
   
   This call shows all `XML files` in directory `/whereTheDataIs` with a recursion depth of `5`.
   
-# an Example
+# Example
 
 The script Run-Example.ps1 calls Scan-Directory.ps1 to scan a directory for XML files. 
 
