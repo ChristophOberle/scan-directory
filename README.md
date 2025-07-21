@@ -20,3 +20,7 @@ The script Run-Example.ps1 calls Scan-Directory.ps1 to scan a directory for XML 
 
 The list of files is written to xmlFiles.csv and 
 the result is output in a different format.
+
+# Feedback
+
+For your feedback please use the [discussion](https://github.com/ChristophOberle/scan-directory/discussions)
