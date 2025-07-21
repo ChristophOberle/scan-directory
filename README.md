@@ -7,7 +7,7 @@ This Powershell script can be used in Windows and Unix environments.
 
 * copy Scan-Directory.ps1 to a directory of your choice
 * start a Powershell session
-* go to the directory (cd <somewhere>)
+* go to the directory (`cd <somewhere>`)
 * run the program:
 
   `./Scan-Directory.ps1 -Path /whereTheDataIs -Include *.xml -Depth 5`
